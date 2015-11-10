@@ -1,0 +1,261 @@
+// !$*UTF8*$!
+{
+	1A3601CB1BF1D5C100F2E2B5 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NoteTaker-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/G-DRIVE/Random BackUp/IOS Development/Code/Development Folder/NoteTaker/NoteTaker-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	1A3601CC1BF1D5C100F2E2B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83119A813E0000A8669 /* AppWindow.h */;
+		name = "AppWindow.h: 45";
+		rLen = 0;
+		rLoc = 1081;
+		rType = 0;
+		vrLen = 1212;
+		vrLoc = 3;
+	};
+	1A3601CD1BF1D5C100F2E2B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83219A813E0000A8669 /* AppWindow.m */;
+		name = "AppWindow.m: 176";
+		rLen = 0;
+		rLoc = 4284;
+		rType = 0;
+		vrLen = 2602;
+		vrLoc = 0;
+	};
+	1A4FD9061BEF464F00346104 /* MainWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 228}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 220}";
+		};
+	};
+	1A4FD90D1BEF46BF00346104 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1A4FD9061BEF464F00346104 /* MainWindow.h */;
+		name = "MainWindow.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 220;
+		vrLoc = 0;
+	};
+	1A4FD91F1BEF48D800346104 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D80F4B6AC300CF3369 /* NoteTakerAppDelegate.h */;
+		name = "NoteTakerAppDelegate.h: 16";
+		rLen = 0;
+		rLoc = 315;
+		rType = 0;
+		vrLen = 321;
+		vrLoc = 0;
+	};
+	1A4FD9201BEF48D800346104 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* NoteTakerAppDelegate.m */;
+		name = "NoteTakerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 355;
+		rType = 0;
+		vrLen = 442;
+		vrLoc = 205;
+	};
+	1A4FD92F1BEF48F400346104 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83119A813E0000A8669 /* AppWindow.h */;
+		name = "AppWindow.h: 31";
+		rLen = 0;
+		rLoc = 1156;
+		rType = 0;
+		vrLen = 315;
+		vrLoc = 33;
+	};
+	1AB9B81D19A81398000A8669 /* NoteTaker */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = NoteTaker;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	1AB9B82E19A8139E000A8669 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	1AB9B82F19A8139E000A8669 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	1AB9B83119A813E0000A8669 /* AppWindow.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {768, 663}}";
+			sepNavSelRange = "{1081, 0}";
+			sepNavVisRange = "{3, 1212}";
+			sepNavWindowFrame = "{{15, 4}, {750, 774}}";
+		};
+	};
+	1AB9B83219A813E0000A8669 /* AppWindow.m */ = {
+		uiCtxt = {
+			sepNavFolds = "{\n    c =     (\n                {\n            r = \"{368, 659}\";\n            s = 0;\n        },\n                {\n            r = \"{1072, 562}\";\n            s = 0;\n        },\n                {\n            r = \"{3127, 34}\";\n            s = 0;\n        },\n                {\n            r = \"{3285, 545}\";\n            s = 0;\n        },\n                {\n            r = \"{3908, 139}\";\n            s = 0;\n        },\n                {\n            r = \"{4104, 178}\";\n            s = 0;\n        },\n                {\n            r = \"{4353, 423}\";\n            s = 0;\n        }\n    );\n    r = \"{0, 6005}\";\n    s = 0;\n}";
+			sepNavIntBoundsRect = "{{0, 0}, {1398, 1820}}";
+			sepNavSelRange = "{2173, 0}";
+			sepNavVisRange = "{0, 1383}";
+			sepNavWindowFrame = "{{380, 4}, {750, 774}}";
+		};
+	};
+	1AD5B7521BF1AC1300AD603D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83219A813E0000A8669 /* AppWindow.m */;
+		name = "AppWindow.m: 196";
+		rLen = 0;
+		rLoc = 4620;
+		rType = 0;
+		vrLen = 507;
+		vrLoc = 3553;
+	};
+	1AD5B9581BF1D51000AD603D /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* NoteTaker-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Volumes/G-DRIVE/Random BackUp/IOS Development/Code/Development Folder/NoteTaker/NoteTaker-Info.plist";
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	1AD5B9591BF1D51000AD603D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83219A813E0000A8669 /* AppWindow.m */;
+		name = "AppWindow.m: 176";
+		rLen = 0;
+		rLoc = 4284;
+		rType = 0;
+		vrLen = 2595;
+		vrLoc = 3;
+	};
+	1AD5B95A1BF1D51000AD603D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1AB9B83119A813E0000A8669 /* AppWindow.h */;
+		name = "AppWindow.h: 45";
+		rLen = 0;
+		rLoc = 1081;
+		rType = 0;
+		vrLen = 1182;
+		vrLoc = 33;
+	};
+	256AC3D80F4B6AC300CF3369 /* NoteTakerAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 234}}";
+			sepNavSelRange = "{315, 0}";
+			sepNavVisRange = "{0, 321}";
+		};
+	};
+	256AC3D90F4B6AC300CF3369 /* NoteTakerAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {677, 442}}";
+			sepNavSelRange = "{355, 0}";
+			sepNavVisRange = "{205, 442}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Release;
+		activeExecutable = 1AB9B81D19A81398000A8669 /* NoteTaker */;
+		activeTarget = 8D1107260486CEB800E47090 /* NoteTaker */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* NoteTaker */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 1AB9B82F19A8139E000A8669 /* Code sense */;
+		executables = (
+			1AB9B81D19A81398000A8669 /* NoteTaker */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 468833663;
+			PBXWorkspaceStateSaveDate = 468833663;
+		};
+		perUserProjectItems = {
+			1A3601CB1BF1D5C100F2E2B5 /* PlistBookmark */ = 1A3601CB1BF1D5C100F2E2B5 /* PlistBookmark */;
+			1A3601CC1BF1D5C100F2E2B5 /* PBXTextBookmark */ = 1A3601CC1BF1D5C100F2E2B5 /* PBXTextBookmark */;
+			1A3601CD1BF1D5C100F2E2B5 /* PBXTextBookmark */ = 1A3601CD1BF1D5C100F2E2B5 /* PBXTextBookmark */;
+			1A4FD90D1BEF46BF00346104 /* PBXTextBookmark */ = 1A4FD90D1BEF46BF00346104 /* PBXTextBookmark */;
+			1A4FD91F1BEF48D800346104 /* PBXTextBookmark */ = 1A4FD91F1BEF48D800346104 /* PBXTextBookmark */;
+			1A4FD9201BEF48D800346104 /* PBXTextBookmark */ = 1A4FD9201BEF48D800346104 /* PBXTextBookmark */;
+			1A4FD92F1BEF48F400346104 /* PBXTextBookmark */ = 1A4FD92F1BEF48F400346104 /* PBXTextBookmark */;
+			1AD5B7521BF1AC1300AD603D /* PBXTextBookmark */ = 1AD5B7521BF1AC1300AD603D /* PBXTextBookmark */;
+			1AD5B9581BF1D51000AD603D /* PlistBookmark */ = 1AD5B9581BF1D51000AD603D /* PlistBookmark */;
+			1AD5B9591BF1D51000AD603D /* PBXTextBookmark */ = 1AD5B9591BF1D51000AD603D /* PBXTextBookmark */;
+			1AD5B95A1BF1D51000AD603D /* PBXTextBookmark */ = 1AD5B95A1BF1D51000AD603D /* PBXTextBookmark */;
+		};
+		sourceControlManager = 1AB9B82E19A8139E000A8669 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* NoteTaker */ = {
+		activeExec = 0;
+		executables = (
+			1AB9B81D19A81398000A8669 /* NoteTaker */,
+		);
+	};
+}
