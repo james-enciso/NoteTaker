@@ -25,6 +25,8 @@
 	
 	FILENAME =[@"Fill.stt" stringByExpandingTildeInPath];
 
+	[saveStatusLabel setStringValue:@""];
+
 		
 	//check if can load previous file contents
 	{
@@ -48,7 +50,7 @@
 	NSLog(@"finished loading");
 
 	if (notesList.selectedRow == -1) {
-		[deleteNoteButton setEnabled:NO];
+		[deleteNoteButton setTitle:@"Discard"];
 	}
 	
 }
@@ -71,6 +73,15 @@
 		[inputField setString:[notesListData objectAtIndex:[notesList selectedRow]]];
 	}
 	
+
+	//if nothing selected (new note mode), use discard button to reset field
+	else if([notesList selectedRow] == -1){
+		[inputField setString:@""];
+		[self makeInputFieldFirstReponder];
+		[self setSaveStatusUnsaved:NO];
+	
+	}
+
 }
 
 - (IBAction)addnoteClicked:(id)sender{
@@ -86,7 +97,6 @@
 		if ([[str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]] isEqualToString:@""]) {
 			NSAlert *alert = [NSAlert alertWithMessageText:@"Empty Note Entry" defaultButton:@"OK" alternateButton:nil otherButton:nil informativeTextWithFormat:@"Make sure your note is not blank"];
 			[alert runModal];	
-			[alert dealloc];
 			return;
 		}
 		
@@ -121,6 +131,10 @@
 	
 	[self setSaveStatusUnsaved:NO];
 	[self setEditMode:NO];
+	
+	if (notesList.selectedRow == -1) {
+		[deleteNoteButton setTitle:@"Discard"];
+	}
 	
 }
 
@@ -158,6 +172,7 @@
 
 	//sets  the input field to the contents of the selected row
 	[inputField setString:[notesListData objectAtIndex:row]];
+	[self setSaveStatusUnsaved:NO];
 	
 	return YES;
 	
@@ -190,7 +205,7 @@
 		[self makeInputFieldFirstReponder];
 		[deleteNoteButton setTitle:@"Discard"];
 
-		[deleteNoteButton setEnabled:NO];
+		//[deleteNoteButton setEnabled:NO];
 
 		
 	}
